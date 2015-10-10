@@ -171,7 +171,8 @@ for ruu in range(1,1000):
             print(ru,i,j,adjenmatrix[i,j],file=file4)
     print(file=file3)
     print(file=file3)
-    print(' '.join(str(x) for x in seq),file=file7)
+    #print(' '.join(str(x) for x in seq),file=file7)
+    print(''.join(str(hex(int(x))) for x in seq),file=file7)
 ##############################################
 #                                   close file
 file1.close
